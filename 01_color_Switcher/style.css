@@ -1,0 +1,101 @@
+.button{
+    height: 50px;
+    width: 50px;
+    color: black;
+    border: 1px solid red;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: gray;
+    height: 20px;
+    width: auto;
+    gap: 10px;
+    border:1px solid grey;
+    background-color: mintcream;
+    padding: 20px;
+    /* box-shadow:   10px 10px; */
+
+    border-radius: 5px;
+}
+#home{
+    height: 25px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: gray;
+    text-decoration:none;
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 30px;
+    border-radius: 10px;
+    
+}
+
+#youtube{
+    height: 25px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: gray;
+    text-decoration:none;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.canvas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: auto;
+    width: max-content;
+    
+}
+
+.box{
+    height: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+#grey{
+    
+        height: 80px;
+        width: 80px;
+        background-color: grey;
+        border: 1px solid black;
+    
+}
+#white{
+    
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border: 1px solid black;
+
+}
+#blue{
+    
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    border: 1px solid black;
+
+}
+#yellow{
+    
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border: 1px solid black;
+
+}
+#heading1{
+    
+    color: red;
+}
+#heading2{
+    
+    color: green;
+}
