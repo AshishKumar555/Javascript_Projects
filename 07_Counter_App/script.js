@@ -2,7 +2,7 @@ const countValue = document.getElementById('counter');
 
 function increment(){
     // get the vlue from UI
-    let value = parseInt(countValue.innerText);
+    let value = parseInt(countValue.innerText);   // return the first string 
     //Update the value
     value = value + 1;
     //set the value onto UI
